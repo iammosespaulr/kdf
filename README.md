@@ -3,12 +3,12 @@ kdf password strengthener
 
 Strengthen passwords with up to 24 bits security.
 
-algortithm = sha224( 2^24 * sha512 )
+algorithm = sha224( 2^24 * sha512 )
 
 requires:
 xclip (for clipboard access) - `sudo apt-get install xclip`
 
-Compatibel with: python2/3 and Tails
+Compatible with: python2/3 and Tails
 
 Run:
 python kdf.py -h 
